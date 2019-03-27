@@ -1,6 +1,7 @@
 import React from 'react';
 // new component
 class SearchBar extends React.Component {
+    // using state allows us to control the component's data
     state = { term: '' };
 
     // we do not provide parenthesis to call back function 'onInputChange' to any eventHandler like onChange as 
